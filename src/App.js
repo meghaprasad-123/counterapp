@@ -1,6 +1,6 @@
 import './App.css';
 import { useState } from 'react';
-// import Counterfun from './components/Counterfun';
+import Counterfun from './components/Counterfun';
 
 
 function App() {
@@ -24,21 +24,21 @@ function App() {
 
   return (
     <div 
-    style={{
-      display:'flex',
-      flexDirection:'column',
-      alignItems:'center',
-      padding:'180px',
-      margin:'5px',
-      border:'2px solid grey',
-      backgroundColor:'lightcyan'
-    }}
+    // style={{
+    //   display:'flex',
+    //   flexDirection:'column',
+    //   alignItems:'center',
+    //   padding:'180px',
+    //   margin:'5px',
+    //   border:'2px solid grey',
+    //   backgroundColor:'lightcyan'
+    // }}
     
     className="App">
       <header className="App-header">
-    <h3 className='hi'><strong>Your Turn...!</strong></h3>
+    {/* <h3 className='hi'><strong>Your Turn...!</strong></h3> */}
         
-          <h1 className="text-center">
+          {/* <h1 className="text-center">
             {counter}</h1>
           <button className='add'
           style={{
@@ -69,9 +69,9 @@ function App() {
             width:'78px',
             borderRadius:'6px'
           }}
-          onClick={reset}>Reset</button>
+          onClick={reset}>Reset</button> */}
     
-    {/* <Counterfun/> */}
+    <Counterfun/>
 
       </header>
     </div>
